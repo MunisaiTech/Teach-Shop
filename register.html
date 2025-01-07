@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div>
+                <h3>Ecommerce</h3>
+            </div>
+            <div class="links">
+                <a href="./index.html" id="active">Home</a>
+                <a href="./products.html">Products</a>
+                <a href="./about us.html">About</a>
+                <a href="./contact us.html">Contact</a>
+            </div>
+            <div class="ref">
+                <a href="./login.html"><i class="fa-solid fa-right-to-bracket"></i><span>Login</span></a>
+                <a href="#"><i class="fa-solid fa-user-plus"></i><span>Register</span></a>
+                <a href="./cart.html"><i class="fa-solid fa-cart-shopping"></i><span id="count">Cart(0)</span></a>
+            </div>
+        </div>
+        <div class="login" id="register">
+            <h3>Register</h3>
+            <hr>
+            <form id="rdata">
+                <label>Full Name</label>
+                <input type="text" id="txt" name="txt" placeholder="Enter Your Name" >
+                <span id="one">please enter a valid name </span>
+                <label>Email</label>
+                <input type="mail" id="email" name="mail" placeholder="name@exmple.com">
+                <span id="two">please enter a valid email</span>
+                <label>Password</label>
+                <input type="password" id="psd" name="pwd"  placeholder="Enter your password">
+                <span id="three">please enter a valid password </span>
+                <p class="check">Already has an account?<a href="./login.html">Login</a></p>
+                <button id="rbtn">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>        

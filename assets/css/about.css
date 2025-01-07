@@ -1,0 +1,48 @@
+.main .about{
+    margin: 150px 95px;
+}
+.main .about h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.784);
+    word-spacing: 10px;
+    margin: 10px 0px;
+}
+.main .about hr{
+    height: 3px;
+    background-color:rgba(0, 0, 0, 0.307);
+    width: 100%;
+    margin: 20px 0px 
+}
+.main .about p{
+    font-size: 20px;
+    margin: 30px 10px 0px 30px;
+    line-height: 35px;
+    text-align:center;
+}
+.main #our{
+    margin: 70px 0px;
+}
+.main .ourPdt{
+    display: flex;
+    justify-content: space-between;
+}
+.ourPdt img{
+    height: 170px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.main .ourPdt div{
+    border: 1px solid rgba(0, 0, 0, 0.34);
+    height: 225px;
+    width: 225px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.335)
+}
+.ourPdt  h4{
+    text-align: center;
+    margin-top: 14px;
+}
+.about #end{
+    margin-top: 100px;
+}

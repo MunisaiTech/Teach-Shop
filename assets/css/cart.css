@@ -1,0 +1,135 @@
+.main .cost{
+    margin:90px 100px 0px 100px;
+    display: flex;
+    column-gap: 90px;
+
+}
+.main .empty h3{
+    font-size: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.784);
+    word-spacing: 10px;
+    margin: 10px 0px;
+}
+.main .empty hr{
+    height: 3px;
+    background-color:rgba(0, 0, 0, 0.307);
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+.main .empty{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.cost .empty .title{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.772);
+    margin-top: 50px;
+}
+.cost .empty a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-size: 20px;
+
+}
+.cost .empty i{
+    margin-right: 8px;
+}
+.cost .empty a:hover{
+    background-color: black;
+    color: white;
+}
+.cost .empty .end{
+    font-size: 19px;
+    margin-top: 200px;
+}
+.main .cart{
+    border: 1px solid ;
+    width: 900px;
+    border-radius: 5px;
+}
+.main .cart h4{
+    font-size: 20px;
+    padding: 10px 0px 10px 10px;
+    background: #2e2e2e0b;
+}
+.main .cost .summary{
+    border: 1px solid;
+    height: 300px;
+    width: 400px;
+    border-radius: 5px;
+}
+.main #items {
+    margin: 10px; 
+}
+.main #items hr{
+    margin: 20px 0px;
+}
+.main .cart-item img{
+    height: 160px;
+    width: 160px;
+}
+.cart-item p{
+    width: 300px;
+}
+
+.main .cart-item{
+    display:flex;
+    justify-content: space-between;
+
+}
+#items .cart-item .symbol{
+    height: 150px;
+    width: 200px;
+    
+}
+.main .cart-item .symbol button{
+    padding: 2px 10px;
+    border: none;
+    background-color:white;
+    font-size: 30px;
+    margin: 0px 25px;
+}
+.main .cart-item .symbol p{
+    margin: 50px 0px 0px 60px;
+
+}
+.main .cart-item button:hover{
+    background: skyblue;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.main .summary h4{
+    font-size: 20px;
+    padding: 10px 0px 10px 10px;
+    background: #2e2e2e0b;
+}
+.summary .total{
+    margin: 10px;
+}
+.total .formate {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.total .formate p{
+    margin: 15px 0px;
+}
+.total  button{
+    padding: 10px;
+    width: 90%;
+    margin: 50px 0px 0px 20px;
+    font-size: 20px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
